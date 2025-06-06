@@ -1,10 +1,19 @@
 # Bomberman Game with Pygame
 
+<div style="display: flex; align-items: center; justify-content: center">
+  <img src="./assets/fcj_logo.png" alt="FCJ Logo" style="height: 200px; margin-right: 20px;">
+  <img src="./assets/q_logo.png" alt="Q Logo" style="height: 200px;">
+</div>
 A Bomberman-style game implemented in Python using Pygame with multiple difficulty levels, bomb types, and enemy AI.
+
+## Short demo
+
+![Watch Demo Video](./assets/bomberman-demo.gif)
 
 ## Features
 
 ### Core Gameplay
+
 - Grid-based movement (1 tile per key press)
 - Bomb placement with space bar
 - Cross-pattern explosions that stop at walls
@@ -12,6 +21,7 @@ A Bomberman-style game implemented in Python using Pygame with multiple difficul
 - 3 lives system
 
 ### Bomb System
+
 - Multiple bomb types:
   - 🔥 Fire Bomb: Standard explosion with 2-tile range
   - ❄️ Ice Bomb: Freezes enemies temporarily
@@ -20,18 +30,21 @@ A Bomberman-style game implemented in Python using Pygame with multiple difficul
 - Switch between bomb types with Tab key
 
 ### Enemy AI
+
 - Enemies move randomly on valid tiles
 - Enemies can place bombs
 - Basic bomb avoidance AI
 - Enemies die when hit by explosions
 
 ### Difficulty Levels
+
 - Easy: 15x15 grid, 3 enemies
 - Normal: 20x20 grid, 5 enemies
 - Hard: 25x25 grid, 8 enemies
 - **NEW**: Change difficulty during gameplay with Ctrl+D or when paused
 
 ### Visual Elements
+
 - Distinct visuals for all game elements:
   - Indestructible walls: Dark gray brick pattern
   - Destructible blocks: Brown wooden texture
@@ -53,10 +66,13 @@ A Bomberman-style game implemented in Python using Pygame with multiple difficul
 
 1. Install Python from [python.org](https://www.python.org/downloads/)
 2. Install Pygame:
+
 ```
 pip install pygame
 ```
+
 3. Run the game:
+
 ```
 python main.py
 ```
@@ -85,6 +101,7 @@ python main.py
 ## Code Structure
 
 The game is organized into several modules:
+
 - `main.py`: Entry point
 - `bomberman/game.py`: Main game controller
 - `bomberman/sprites.py`: Player, enemy, bomb, and explosion classes
