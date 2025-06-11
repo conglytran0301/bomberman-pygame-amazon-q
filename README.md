@@ -11,7 +11,7 @@ Robot Bomberman is a modern take on the classic Bomberman game, featuring upgrad
 
 ## Short demo
 
-![Watch Demo Video](./assets/Bomberman-Demo.gif)
+![Watch Demo Video](./assets/bomberman-demo.gif)
 
 ## Key Features
 
@@ -173,4 +173,4 @@ If you have any questions or suggestions, please open an issue in this repositor
 
 ---
 
-Developed with ❤️ by [Your Name]
+Developed with ❤️ by Ly Tran
